@@ -1,0 +1,12 @@
+# Server Config
+server.port=8089
+
+spring.datasource.url=jdbc:mysql://localhost:3306/organization_db
+spring.datasource.username=TestJPA
+spring.datasource.password=12345678
+
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+spring.jpa.hibernate.ddl-auto=update
+
+#spring.application.name=ORGANIZATION-SERVICE
+spring.boot.message=This Is From department Service update new
